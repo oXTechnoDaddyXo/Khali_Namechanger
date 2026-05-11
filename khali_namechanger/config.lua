@@ -46,4 +46,4 @@ Config.AllowedJobs = {
 Config.MinNameLength = 3
 
 
-Config.DiscordWebhook = 'https://discord.com/api/webhooks/1407703577001984090/PDe_0FuP4AChyyCQ1P03Xu5X1J1t8q3yDXzZkZwy1tmaXZeXcjq_2JTds9tJRzqKL50P'
+Config.DiscordWebhook = 'YOUR_WEBHOOK_LINK'
