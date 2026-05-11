@@ -1,0 +1,68 @@
+body {
+margin:0;
+display:none;
+font-family: Georgia;
+background:transparent;
+}
+
+#ui {
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%) scale(.92);
+
+width:540px;
+padding:25px;
+
+background:linear-gradient(135deg,#2a1208,#0f0604);
+border-radius:16px;
+
+opacity:0;
+transition:.3s;
+}
+
+body.show #ui {
+opacity:1;
+transform:translate(-50%,-50%) scale(1);
+}
+
+h1 {
+color:#ffb36b;
+text-align:center;
+}
+
+input,select,button {
+width:100%;
+margin-top:8px;
+padding:10px;
+border-radius:8px;
+border:none;
+}
+
+button {
+background:#8b4b1f;
+color:white;
+cursor:pointer;
+}
+
+button:hover {
+background:#c06a2c;
+}
+
+#historyBox {
+margin-top:10px;
+max-height:150px;
+overflow:auto;
+color:white;
+font-size:12px;
+}
+
+option.online {
+color:#4dff4d;
+font-weight:bold;
+}
+
+option.offline {
+color:#ff4d4d;
+font-weight:bold;
+}
